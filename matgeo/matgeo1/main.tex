@@ -36,6 +36,8 @@
 \usepackage{hhline}                                           
 \usepackage{ifthen}                                           
 \usepackage{lscape}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{graphicx}
 \begin{document}
 
 \bibliographystyle{IEEEtran}
@@ -76,6 +78,16 @@ The matrix
 \\
 $\therefore$
 The rank of matrix is 2. It implies the given points are non collinear.
+
+
+% Include the plot here
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{/home/rahulpothur/git/EE1030/matgeo/matgeo1/fig.png} 
+    \caption{Scatter plot of points A, B, and C}
+    \label{fig:scatter_plot}
+\end{figure}
+
 
 
 \end{document}
