@@ -1,5 +1,21 @@
+#Code by Parv Chandola
+#May 11, 2024
+#Revised July 26, 2024
+#by GVV Sharma
+#released under GNU GPL
+#Circle equation
+
+
+
+
+
+
+
 import numpy as np
 import matplotlib.pyplot as plt
+sys.path.insert(0, '/rahulpothur/home/matgeo/codes/CoordGeo')
+
+
 
 # Define the figure and axis
 fig, ax = plt.subplots(figsize=(6, 6))
