@@ -1,0 +1,471 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+\usepackage{graphicx}
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2023-XE-'1-13'}
+\author{EE24BTECH11050 - Pothuri Rahul}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[start=1]
+\item %1
+The village was nested in a green spot, \underline{\hspace{2cm}} the ocean and the hills.
+\begin{enumerate}
+\begin{multicols}{4}
+\item through
+\item in
+\item at 
+\item between
+\end{multicols}
+\end{enumerate}
+\item %2
+Disagree : Proteset : : Agree : \underline{\hspace{1.5cm}}
+\begin{enumerate}
+\begin{multicols}{4}
+\item Refuse
+\item Pretext
+\item Recommend
+\item Refuse
+\end{multicols}
+\end{enumerate}
+\item %3
+A 'frabjous' number is defined as a 3 digit number with all digits odd, and no two adjacent digits being the same. For example, 137 is a frabjous number, while 133 is not. How many such frabjous numbers exist? 
+\begin{enumerate}
+\begin{multicols}{4}
+\item 125
+\item 720
+\item 60
+\item 80
+\end{multicols}
+\end{enumerate}
+\item %4
+Which one among the following statements must be TRUE about mean and the median of the scores of all candidates appearing for GATE 2023?
+\begin{enumerate}
+\item The median is at least as the large as mean.
+\item The mean is at least as large as the median.
+\item At most half the candidates have a score that is larger than the median.
+\item At most half the candidates have a score that is larger than the mean.
+\end{enumerate}
+\item %5
+In the given diagram, ovals are marked at different heights (h) of a hill. Which one of the following options P, Q,R and S depicts the top view of the hill?
+\begin{figure}[!ht]
+\centering
+\resizebox{0.4\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [line width=1.5pt, short] (3,12) .. controls (8.75,12) and (12,12) .. (14.75,12);
+\draw [line width=1.5pt, short] (3,12) -- (3,4.75);
+\draw [line width=1.5pt, short] (14.75,12) -- (14.75,4.75);
+\draw [line width=1.5pt, short] (3,4.75) -- (14.75,4.75);
+\draw [line width=1.5pt, short] (3.25,5.5) .. controls (4.25,18.25) and (6.75,5.5) .. (14.5,5.5);
+\draw [ line width=0.8pt ] (7.75,5.75) ellipse (4.5cm and 0.25cm);
+\draw [ line width=0.8pt ] (7,6.5) ellipse (3.75cm and 0.25cm);
+\draw [ line width=0.8pt ] (6.5,7.25) ellipse (3cm and 0.25cm);
+\draw [ line width=0.8pt ] (5.75,8.5) ellipse (2.25cm and 0.25cm);
+\draw [ line width=0.8pt ] (5.25,9.75) ellipse (1.5cm and 0.25cm);
+\draw [ line width=0.8pt ] (5,10.5) ellipse (1cm and 0.25cm);
+\draw [ line width=0.8pt ] (12.25,11.25) ellipse (1.5cm and 0.25cm);
+\node [font=\large] at (6.25,11) {Hill};
+\node [font=\normalsize] at (12.25,10.5) {Horizontal cross-sections};
+\node [font=\normalsize] at (12.25,10) {at various altitudes(h)};
+\node [font=\large] at (8,3.25) {Distance (in km)};
+\node [font=\large, rotate around={90:(0,0)}] at (0.25,8.5) {Height from mean};
+\node [font=\large, rotate around={90:(0,0)}] at (1,8.5) {sea level, h(in km)};
+\node [font=\Large] at (3.75,4.5) {$\lvert$};
+\node [font=\Large] at (5.25,4.5) {$\lvert$};
+\node [font=\Large] at (7,4.5) {$\lvert$};
+\node [font=\Large] at (8.75,4.5) {$\lvert$};
+\node [font=\Large] at (10.75,4.5) {$\lvert$};
+\node [font=\Large] at (13,4.5) {$\lvert$};
+\node [font=\LARGE] at (3,5.5) {-};
+\node [font=\LARGE] at (3,6.5) {-};
+\node [font=\LARGE] at (3,7.5) {-};
+\node [font=\LARGE] at (3,8.5) {-};
+\node [font=\LARGE] at (3,9.5) {-};
+\node [font=\LARGE] at (3,10.5) {-};
+\node [font=\LARGE] at (3,11.5) {-};
+\node [font=\large] at (3.75,4) {0};
+\node [font=\large] at (5.25,4) {0.2};
+\node [font=\large] at (7,4) {0.4};
+\node [font=\large] at (8.75,4) {0.6};
+\node [font=\large] at (10.75,4) {0.8};
+\node [font=\large] at (13,4) {1.0};
+\node [font=\large] at (2.75,5.5) {0};
+\node [font=\large] at (2.5,6.5) {0.2};
+\node [font=\large] at (2.5,7.5) {0.3};
+\node [font=\large] at (2.5,8.5) {0.4};
+\node [font=\large] at (2.5,9.5) {0.5};
+\node [font=\large] at (2.5,10.5) {0.6};
+\node [font=\large] at (2.5,11.5) {0.8};
+\end{circuitikz}
+}%
+\label{fig:my_label}
+\end{figure}
+\begin{figure}[!ht]
+\centering
+\resizebox{0.8\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\huge]
+\draw [ line width=1.3pt ] (12.5,8.25) ellipse (2cm and 0.25cm);
+\draw [ line width=1.3pt ] (11.5,8.25) ellipse (3.25cm and 0.5cm);
+\draw [ line width=1.3pt ] (10.75,8.25) ellipse (4.25cm and 0.75cm);
+\draw [ line width=1.3pt ] (10.25,8.25) ellipse (5cm and 1cm);
+\draw [ line width=1.3pt ] (9.75,8.25) ellipse (5.75cm and 1.5cm);
+\draw [line width=1.3pt, ->, >=Stealth] (2.25,8.25) -- (16.25,8.25);
+\draw [line width=1.3pt, ->, >=Stealth] (19.25,8.25) -- (33.25,8.25);
+\draw [ line width=1.3pt ] (22.75,8.25) ellipse (1.5cm and 0.25cm);
+\draw [ line width=1.3pt ] (23,8.25) ellipse (2cm and 0.5cm);
+\draw [ line width=1.3pt ] (23,8.25) ellipse (2.25cm and 0.75cm);
+\draw [ line width=1.3pt ] (23.25,8.25) ellipse (2.75cm and 1cm);
+\draw [ line width=1.3pt ] (23.75,8.25) ellipse (3.5cm and 1.25cm);
+\draw [ line width=1.3pt ] (24.25,8.25) ellipse (4.25cm and 1.5cm);
+\draw [ line width=1.3pt ] (22.75,8.25) ellipse (0.75cm and 0cm);
+\draw [line width=1.3pt, ->, >=Stealth] (2.25,0.75) -- (16.25,0.75);
+\draw [line width=1.3pt, ->, >=Stealth] (19,0.75) -- (33.5,0.75);
+\draw [ line width=1.3pt ] (8.75,0.75) ellipse (2.5cm and 0.25cm);
+\draw [ line width=1.3pt ] (8.75,0.75) ellipse (3cm and 0.5cm);
+\draw [ line width=1.3pt ] (8.75,0.75) ellipse (3.5cm and 0.75cm);
+\draw [ line width=1.3pt ] (9,0.75) ellipse (4.25cm and 1.25cm);
+\draw [ line width=1.3pt ] (9,0.75) ellipse (4.75cm and 1.5cm);
+\draw [ line width=1.3pt ] (9,0.75) ellipse (5.75cm and 2cm);
+\draw [ line width=1.3pt ] (27,0.75) ellipse (0.75cm and 0.25cm);
+\draw [ line width=1.3pt ] (25.75,0.75) ellipse (2cm and 0.5cm);
+\draw [ line width=1.3pt ] (27.75,0.75) ellipse (4cm and 1cm);
+\draw [ line width=1.3pt ] (26.75,0.75) ellipse (5cm and 1.5cm);
+\draw [ line width=1.3pt ] (27,0.75) ellipse (5.25cm and 2.25cm);
+\draw [ line width=1.3pt ] (26.25,0.75) ellipse (6cm and 3cm);
+\node [font=\LARGE] at (0.25,8.25) {0 km};
+\node [font=\LARGE] at (18.25,8.25) {0 km};
+\node [font=\LARGE] at (0.25,0.75) {0 km};
+\node [font=\LARGE] at (18,0.75) {0 km};
+\node [font=\huge] at (2,10.25) {\textbf{P}};
+\node [font=\huge] at (18.25,10) {\textbf{Q}};
+\node [font=\huge] at (1.75,2.5) {\textbf{R}};
+\node [font=\huge] at (18.25,2.5) {\textbf{S}};
+\end{circuitikz}
+}%
+\label{fig:my_label}
+\end{figure}
+\begin{enumerate}
+\begin{multicols}{4}
+\item P
+\item Q
+\item R
+\item S
+\end{multicols}
+\end{enumerate}
+\item %6
+Residency is a famous housing complex with many well-established individuals among its residents. A recent survey conducted among the residents of the complex revealed that all of those residents who are well established in their respective fields happen to be academicians. The survey also revealed that most of these academicians are authors of some best-selling books. \\
+\\
+based only on the information provided above, which one of the following statements can be logically inferred with certainity ?
+\begin{enumerate}
+\item Some residents of the complex who are well established in their fields are also authors of some best-selling books .
+\item All academicians residing in the complex are well established in their fields.
+\item Some authors of best-selling books are residents of the complex who are well established in their fields.
+\item Some academicians residing in the complex are well established in their fields.
+\end{enumerate}
+\item %7
+Ankita has to climb 5 stairs starting at the ground, while respecting the following rules:
+1. At any stage, Ankita can move either one or two stairs up.
+2. At any stage, Ankita cannot move to a lower step.
+Let F(N) denote the number of possible ways in which Akita can reach the $N^{th}$ stair. For example, $F\brak{1}=1$,$F\brak{2}=2$, $F\brak{3}=3$ . \\
+\\
+The value of $F\brak{5}$ is \underline{\hspace{1.5cm}} .
+\begin{enumerate}
+\begin{multicols}{4}
+\item 8
+\item 7
+\item 6
+\item 5
+\end{multicols}
+\end{enumerate}
+\item %8
+The information contained in DNA is used to synthesize proteins that are necessary for functioning of life. DNA is composed of four nucleotides: Adenine (A), Thymine (T), Cytosine (C) and Guanine (G). The information contained in DNA can then be thought of as a sequence of these four nucleotides: A, T, C and G. DNA has coding and non-coding regions. Coding regions-where the sequence of these nucleotides are read in groups of three to produce individual amino acids-constitute only about 2\% of human DNA. For example, the triplet of nucleotides CCG codes for the amino acid glycine, while the triplet CGA codes for the amino acid proline. Multiple amino acids are then assembled to form a protein. \\
+\\
+Based only on the information provided above, which of the following statements can be logically inferred with certainity?\\
+(i)  The majority of human DNA has no role in the synthesis of protein. \\
+(ii) The function of about 98\% of human DNA is not understood.
+\begin{enumerate}
+\begin{multicols}{2}
+\item only (i)
+\item only (ii)
+\item both (i) and (ii)
+\item neither (i) nor (ii)
+\end{multicols}
+\end{enumerate}
+\item %9
+Which one of the given figures P, Q, R and S represents the graph of the following function?\\
+\begin{center}
+$f\brak{x}=\abs{\abs{x+2}-\abs{x-1}}$
+\end{center}
+\begin{figure}[!ht]
+\centering
+\resizebox{1\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [line width=1.3pt, short] (-3.75,4.5) -- (-3.75,-3.25);
+\draw [line width=1.3pt, short] (-4.25,-3) -- (7.75,-3);
+\node [font=\LARGE] at (-2.5,-3.25) {$\lvert$};
+\node [font=\LARGE] at (0,-3.25) {$\lvert$};
+\node [font=\LARGE] at (2.5,-3.25) {$\lvert$};
+\node [font=\LARGE] at (5,-3.25) {$\lvert$};
+\node [font=\LARGE] at (7.5,-3.25) {$\lvert$};
+\node [font=\LARGE] at (-2.75,-4.5) {\textbf{-4}};
+\node [font=\LARGE] at (-0.25,-4.5) {\textbf{-2}};
+\node [font=\LARGE] at (2.5,-4.5) {\textbf{0}};
+\node [font=\LARGE] at (5,-4.5) {\textbf{2}};
+\node [font=\LARGE] at (7.5,-4.5) {\textbf{4}};
+\node [font=\LARGE] at (1.75,-5.5) {\textbf{x}};
+\node [font=\LARGE] at (-6.25,0.75) {\textbf{f(x)}};
+\node [font=\LARGE] at (-3.75,-1.75) {\textbf{-}};
+\node [font=\LARGE] at (-3.75,-0.5) {\textbf{-}};
+\node [font=\LARGE] at (-4,0.75) {\textbf{-}};
+\node [font=\LARGE] at (-3.75,0.75) {\textbf{-}};
+\node [font=\LARGE] at (-3.75,2) {\textbf{-}};
+\node [font=\LARGE] at (-3.75,3.25) {\textbf{-}};
+\draw [line width=1.3pt, short] (11.25,4.5) -- (11.25,-3.25);
+\draw [line width=1.3pt, short] (10.75,-3) -- (22.75,-3);
+\node [font=\LARGE] at (12.5,-3.25) {$\lvert$};
+\node [font=\LARGE] at (15,-3.25) {$\lvert$};
+\node [font=\LARGE] at (17.5,-3.25) {$\lvert$};
+\node [font=\LARGE] at (20,-3.25) {$\lvert$};
+\node [font=\LARGE] at (22.5,-3.25) {$\lvert$};
+\node [font=\LARGE] at (12.25,-4.5) {\textbf{-4}};
+\node [font=\LARGE] at (14.75,-4.5) {\textbf{-2}};
+\node [font=\LARGE] at (17.5,-4.5) {\textbf{0}};
+\node [font=\LARGE] at (20,-4.5) {\textbf{2}};
+\node [font=\LARGE] at (22.5,-4.5) {\textbf{4}};
+\node [font=\LARGE] at (16.75,-5.5) {\textbf{x}};
+\node [font=\LARGE] at (8.75,0.75) {\textbf{f(x)}};
+\node [font=\LARGE] at (11.25,-1.75) {\textbf{-}};
+\node [font=\LARGE] at (11.25,-0.5) {\textbf{-}};
+\node [font=\LARGE] at (11,0.75) {\textbf{-}};
+\node [font=\LARGE] at (11.25,0.75) {\textbf{-}};
+\node [font=\LARGE] at (11.25,2) {\textbf{-}};
+\node [font=\LARGE] at (11.25,3.25) {\textbf{-}};
+\draw [line width=1.3pt, short] (-3.75,-6.75) -- (-3.75,-14.5);
+\draw [line width=1.3pt, short] (-4.25,-14.25) -- (7.75,-14.25);
+\node [font=\LARGE] at (-2.5,-14.5) {$\lvert$};
+\node [font=\LARGE] at (0,-14.5) {$\lvert$};
+\node [font=\LARGE] at (2.5,-14.5) {$\lvert$};
+\node [font=\LARGE] at (5,-14.5) {$\lvert$};
+\node [font=\LARGE] at (7.5,-14.5) {$\lvert$};
+\node [font=\LARGE] at (-2.75,-15.75) {\textbf{-4}};
+\node [font=\LARGE] at (-0.25,-15.75) {\textbf{-2}};
+\node [font=\LARGE] at (2.5,-15.75) {\textbf{0}};
+\node [font=\LARGE] at (5,-15.75) {\textbf{2}};
+\node [font=\LARGE] at (7.5,-15.75) {\textbf{4}};
+\node [font=\LARGE] at (1.75,-16) {\textbf{x}};
+\node [font=\LARGE] at (-6.25,-10.5) {\textbf{f(x)}};
+\node [font=\LARGE] at (-3.75,-13) {\textbf{-}};
+\node [font=\LARGE] at (-3.75,-11.75) {\textbf{-}};
+\node [font=\LARGE] at (-4,-10.5) {\textbf{-}};
+\node [font=\LARGE] at (-3.75,-10.5) {\textbf{-}};
+\node [font=\LARGE] at (-3.75,-9.25) {\textbf{-}};
+\node [font=\LARGE] at (-3.75,-8) {\textbf{-}};
+\draw [line width=1pt, short] (-3.75,-1.75) -- (7.5,-1.75);
+\draw [line width=1.2pt, short] (-3.75,2) -- (0,2);
+\draw [line width=1.2pt, short] (0,2) -- (1.25,-1.75);
+\draw [line width=1.2pt, short] (1.25,-1.75) -- (3.25,2);
+\draw [line width=1.2pt, short] (3.25,2) -- (7.5,2);
+\node [font=\LARGE] at (1.5,2.25) {\textbf{P}};
+\node [font=\LARGE] at (-4.25,-1.75) {\textbf{0}};
+\node [font=\LARGE] at (-4.25,-0.5) {\textbf{1}};
+\node [font=\LARGE] at (-4.25,0.75) {\textbf{2}};
+\node [font=\LARGE] at (-4.25,2) {\textbf{3}};
+\node [font=\LARGE] at (-4.25,3.25) {\textbf{4}};
+\node [font=\LARGE] at (10.75,-1.75) {\textbf{-4}};
+\node [font=\LARGE] at (10.75,-0.5) {\textbf{-2}};
+\node [font=\LARGE] at (10.75,0.75) {\textbf{0}};
+\node [font=\LARGE] at (10.75,2) {\textbf{2}};
+\node [font=\LARGE] at (10.75,3.25) {\textbf{4}};
+\node [font=\LARGE] at (-4.5,-14.25) {\textbf{0}};
+\node [font=\LARGE] at (-4.25,-13) {\textbf{2}};
+\node [font=\LARGE] at (-4.25,-11.75) {\textbf{4}};
+\node [font=\LARGE] at (-4.25,-10.5) {\textbf{6}};
+\node [font=\LARGE] at (-4.25,-9.25) {\textbf{8}};
+\node [font=\LARGE] at (-4.25,-8) {\textbf{10}};
+\draw [line width=1.3pt, short] (11.25,-6.75) -- (11.25,-14.5);
+\draw [line width=1.3pt, short] (10.75,-14.25) -- (22.75,-14.25);
+\node [font=\LARGE] at (12.5,-14.5) {$\lvert$};
+\node [font=\LARGE] at (15,-14.5) {$\lvert$};
+\node [font=\LARGE] at (17.5,-14.5) {$\lvert$};
+\node [font=\LARGE] at (20,-14.5) {$\lvert$};
+\node [font=\LARGE] at (22.5,-14.5) {$\lvert$};
+\node [font=\LARGE] at (12.25,-15.75) {\textbf{-4}};
+\node [font=\LARGE] at (14.75,-15.75) {\textbf{-2}};
+\node [font=\LARGE] at (17.5,-15.75) {\textbf{0}};
+\node [font=\LARGE] at (20,-15.75) {\textbf{2}};
+\node [font=\LARGE] at (22.5,-15.75) {\textbf{4}};
+\node [font=\LARGE] at (16.75,-16) {\textbf{x}};
+\node [font=\LARGE] at (8.75,-10.5) {\textbf{f(x)}};
+\node [font=\LARGE] at (11.25,-13) {\textbf{-}};
+\node [font=\LARGE] at (11.25,-11.75) {\textbf{-}};
+\node [font=\LARGE] at (11,-10.5) {\textbf{-}};
+\node [font=\LARGE] at (11.25,-10.5) {\textbf{-}};
+\node [font=\LARGE] at (11.25,-9.25) {\textbf{-}};
+\node [font=\LARGE] at (11.25,-8) {\textbf{-}};
+\node [font=\LARGE] at (10.5,-14.25) {\textbf{0}};
+\node [font=\LARGE] at (10.75,-13) {\textbf{2}};
+\node [font=\LARGE] at (10.75,-11.75) {\textbf{4}};
+\node [font=\LARGE] at (10.75,-10.5) {\textbf{6}};
+\node [font=\LARGE] at (10.75,-9.25) {\textbf{8}};
+\node [font=\LARGE] at (10.75,-8) {\textbf{10}};
+\draw [line width=0.9pt, short] (11.25,0.75) -- (22.5,0.75);
+\draw [line width=1.2pt, short] (11.25,-1.25) -- (15,-1.25);
+\draw [line width=1.2pt, short] (15,-1.25) -- (18.25,2.75);
+\draw [line width=1.2pt, short] (18.25,2.75) -- (22.5,2.75);
+\node [font=\LARGE] at (15.5,2.5) {\textbf{Q}};
+\draw [line width=1.2pt, short] (-3.75,-8.5) -- (1.75,-14.25);
+\draw [line width=1.2pt, short] (1.75,-14.25) -- (4,-12.25);
+\draw [line width=1.2pt, short] (4,-12.25) -- (7,-12.25);
+\draw [line width=1.2pt, short] (11.25,-8) -- (15,-12.5);
+\draw [line width=1.2pt, short] (15,-12.5) -- (21,-12.5);
+\node [font=\LARGE] at (1,-10.25) {\textbf{R}};
+\node [font=\LARGE] at (15.5,-9.75) {\textbf{S}};
+\end{circuitikz}
+}%
+\label{fig:my_label}
+\end{figure}
+\begin{enumerate}
+\begin{multicols}{4}
+\item P
+\item Q
+\item R
+\item S
+\end{multicols}
+\end{enumerate}
+\item %10
+An opaque cylinder (shown below) is suspended in the path of a parallel beam of light, such that its shadow is cast on a screen oriented perpendicular to the direction of the light beam. The cylinder can be reoriented in any direction within the light beam. Under these conditions, which one of the shadows P, Q, R and S is not possible?
+\begin{figure}[!ht]
+\centering
+\resizebox{0.4\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [ line width=1.2pt ] (-33.5,-88) ellipse (1cm and 2.25cm);
+\draw [line width=1.2pt, short] (-33.5,-85.75) -- (-20.5,-84);
+\draw [line width=1.2pt, short] (-33.5,-90.25) -- (-20,-87.75);
+\draw [line width=1.2pt, short] (-20.5,-84) .. controls (-18.25,-84.75) and (-18.25,-87.25) .. (-20,-87.75);
+\draw [line width=1.2pt, dashed] (-20.5,-84) .. controls (-22.5,-85) and (-23,-87) .. (-20,-87.75);
+\end{circuitikz}
+}%
+\label{fig:my_label}
+\end{figure}
+\begin{figure}[!ht]
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw  (-25,-10.75) circle (2cm);
+\draw [short] (-16.75,-8.75) -- (-11.25,-8.75);
+\draw [short] (-16.75,-12.5) -- (-11.25,-12.5);
+\draw [short] (-11.25,-8.75) .. controls (-9,-9.75) and (-9,-12.25) .. (-11.25,-12.5);
+\draw [short] (-16.75,-8.75) .. controls (-19,-9.75) and (-18.5,-12) .. (-16.75,-12.5);
+\draw  (-28.5,-15.25) rectangle (-20.75,-18.5);
+\draw  (-17.75,-18.25) -- (-9.75,-18.25) -- (-9.25,-14.75) -- (-17.25,-14.75) -- cycle;
+\node [font=\LARGE] at (-25.25,-10.75) {P};
+\node [font=\LARGE] at (-14.25,-11) {Q};
+\node [font=\LARGE] at (-25.5,-16.75) {R};
+\node [font=\LARGE] at (-14,-16.75) {S};
+\end{circuitikz}
+}%
+\label{fig:my_label}
+\end{figure}
+\begin{enumerate}
+\begin{multicols}{4}
+\item P
+\item Q
+\item R
+\item S
+\end{multicols}
+\end{enumerate}
+\begin{center}
+    Engineering Mathematics: XE-A (Compulsory)\\
+    XE-A: Q.11 - Q.17 Carry ONE mark Each
+\end{center}
+\item %11
+Let A be a $3 \times 3$ real matrix having eigenvalues 1,2 and 3. If $B = A^2+2A+I$, where I is the $3 \times 3$ identity matrix them the eigenvalues of B are 
+\begin{enumerate}
+\begin{multicols}{4}
+\item 4,9,16
+\item 1,2,3
+\item 1,4,9
+\item 4,16,25
+\end{multicols}
+\end{enumerate}
+\item %12
+Let $f: \mathbf{R}^2 \mapsto \mathbf{R}$ be a function defined by 
+\begin{center}
+    $
+    f\brak{x,y} = 
+    \begin{cases}
+    \frac{xy}{\abs{x}+y} &, y \neq - \abs{x} \\
+    0 &, otherwise
+    \end{cases}
+    $
+\end{center}
+\begin{enumerate} 
+\item f is NOT continuous at \brak{0,0}.
+\item  $\frac{\partial{f}}{\partial x}\brak{0,0} = 0$ and $\frac{\partial{f}}{\partial y}\brak{0,0} = 1$
+\item  $\frac{\partial{f}}{\partial x}\brak{0,0} = 1$ and $\frac{\partial{f}}{\partial y}\brak{0,0} = 0$
+\item  $\frac{\partial{f}}{\partial x}\brak{0,0} = 1$ and $\frac{\partial{f}}{\partial y}\brak{0,0} = 1$
+\end{enumerate}
+\item %13
+If the quadratic formula 
+\begin{center}
+    $\int\limits_{-1}^1 f\brak{x}dx \approx\frac{1}{9}\brak{c_1f\brak{-1}+c_2f\brak{\frac{1}{2}}+c_3f\brak{1}}$
+\end{center}
+is exact for all polynomials of degree less than or equal to 2, then
+\begin{enumerate} 
+\item $c_1+\frac{c_2}{4}+c_3=6$
+\item $c_1+\frac{c_2}{3}+c_3=4$ 
+\item $c_1+\frac{c_2}{2}+c_3=2$
+\item $c_1+c_2+c_3=5$
+\end{enumerate}
+\end{enumerate}
+\end{document}
